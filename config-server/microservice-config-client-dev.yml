@@ -26,8 +26,10 @@ spring:
         # 连接池中的最小空闲连接
         min-idle: 0
 info: 
-  app.name: microservice-config-client-dev
-  company.name: microservice-config-client-company-name
+  app:
+    name: microservice-config-client-dev
+  company:
+    name: microservice-config-client-dev-company-name
 logging:
   file: F:\\logs\\microservice-redis.log
   org.common.eureka.controller : error
