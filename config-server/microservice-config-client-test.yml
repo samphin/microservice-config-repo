@@ -3,7 +3,7 @@ server:
   port: 6380
 spring:
   application:
-    name: microservice-config-client-bus
+    name: microservice-config-client
   redis:
     # Redis数据库索引(默认为0)
     database: 0
@@ -27,9 +27,9 @@ spring:
         min-idle: 0
 info: 
   app:
-    name: microservice-config-client-bus-dev
-  company: 
-    name: microservice-config-client-bus-company-name
+    name: microservice-config-client-dev
+  company:
+    name: microservice-config-client-dev-company-name
 logging:
   file: F:\\logs\\microservice-redis.log
   org.common.eureka.controller : error
